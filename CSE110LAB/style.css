@@ -1,0 +1,77 @@
+div {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+}
+
+p{
+  font-size: 28px;
+}
+.wholesc1{
+  background-color: rgb(245, 240, 230);
+}
+
+.wholesc2{
+  background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.wholesec3{
+  font-size: 28px;
+  background-color: rgb(245, 240, 230);
+  width: 100%;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+  max-width: 400px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #182b49;
+  color: white;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 20px;
+}
+
+.grid-box{
+  background-color: #182b49;
+  color: white;
+  max-height: 500px;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+}
